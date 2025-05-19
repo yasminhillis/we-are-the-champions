@@ -1,0 +1,146 @@
+body {
+    background-color: #1B1924;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    margin-top: 51px;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 20px;
+    color: #fff;
+}
+
+#endorsement-text { 
+    background: #444059;
+    resize: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: "Inter", sans-serif;
+    width: 300px;
+    height: 118px;
+    border: none;
+    color: #fff;
+    outline: none;
+}  
+
+input {
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 9px;
+    height: 40px;
+    width: 153px;
+    margin-right: 1px;
+    color: #fff;
+}
+
+#publish-btn {
+    display: block;
+    margin: 0 auto;
+    width: 317px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    background-color: #28A9F1;
+    color: #04131C;
+    border: none;
+    border-radius: 8px;
+    height: 41px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.endorsement-span {
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 19px;
+}
+
+span {
+    font-family: "Inter", sans-serif;
+    color: black;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 19px;
+}
+
+.endorsement-div {
+    background-color: #fff;
+    font-family: "Inter";
+    color: #1B1924;
+    margin-bottom: 13px;
+    line-height: 15px;
+    padding: 5px;
+    max-width: 317px;
+    font-weight: 400;
+    text-align: left;
+    padding: 14px;
+    width: 317px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.endorsement-section-empty {
+    color: #fff;
+    font-family: "Inter";
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.receiver {
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Inter";
+    margin-bottom: 6px;
+    outline: none;
+}
+
+.sender {
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: "Inter";
+    margin-top: 7px;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between
+}
+
+.heart-icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 1px;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.likes-container {
+    font-weight: 800;
+    align-items: end;
+}
+
+#heart {
+    cursor: pointer;
+}
