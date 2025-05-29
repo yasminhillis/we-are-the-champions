@@ -15,7 +15,7 @@ A simple web app where users can write, publish, and like public endorsements! B
 
 ## 📂 Live Demo
 
-[Click to Try the App](#) *(https://champions-world.netlify.app/)*
+[Click to Try the App](https://champions-world.netlify.app/)
 
 ---
 
