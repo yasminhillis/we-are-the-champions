@@ -19,7 +19,6 @@ const endorsementSection = document.getElementById('endorsements-section');
 
 
 onValue(referenceInDB, function (snapshot) {
-    console.log(snapshot.exists(), 'snapshot.exists()')
     endorsementSection.innerHTML = '';
 
     if (snapshot.exists()) {
@@ -55,6 +54,24 @@ onValue(referenceInDB, function (snapshot) {
 })
 
 publishBtn.addEventListener('click', function () {
+    if (endorsementText.value === '' || sender.value === '' || receiver.value === '') {
+        alert('Please fill in all fields');
+        return;
+    }
+
+    if (endorsementText.value.length > 200) {
+        alert('Endorsement text is too long. Please limit it to 200 characters.');
+        return;
+    }
+
+    if (sender.value.length > 50 || receiver.value.length > 50) {
+        alert('Sender and receiver names should not exceed 50 characters.');
+        return;
+    }
+
+    endorsementSection.classList.remove('endorsement-section-empty') 
+       
+    endorsementSection.innerHTML = '';
     const endorsement = {
         text: endorsementText.value,
         sender: sender.value,
